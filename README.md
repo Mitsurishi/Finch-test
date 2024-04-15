@@ -1,1 +1,1 @@
-# Finch-test
+#Lottery app
