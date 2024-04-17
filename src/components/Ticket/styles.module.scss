@@ -1,0 +1,33 @@
+.ticket {
+    max-width: 300px;
+}
+
+.ticket_subheader_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.ticket_button_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+:global(#root) {
+    .ticket_done_icon {
+        margin: -20px .25rem 0 10px;
+    }
+
+    .progress {
+        margin-bottom: 0;
+    }
+
+    .field_header {
+        margin: 0 0 1rem 0;
+    }
+
+    span {
+        margin-left: 10px;
+        font-weight: 400;
+    }
+}
