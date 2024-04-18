@@ -1,13 +1,15 @@
-export interface FieldItem {
-    value: number
-    isActive: boolean
-}
-
 type Field = number[];
 
 interface SelectedNumber {
     firstField: Field
     secondField: Field
+}
+
+export type GameState = "inProgress" | "over";
+
+export interface FieldItem {
+    value: number
+    isActive: boolean
 }
 
 export interface ResultRequestData {
@@ -16,6 +18,7 @@ export interface ResultRequestData {
 }
 
 export interface LoadingState {
-    error: boolean | string
+    error: boolean
     loading: boolean
+    message: string
 }

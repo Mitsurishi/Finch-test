@@ -1,6 +1,6 @@
 import React from 'react'
 import { observer } from 'mobx-react';
-import { FieldItem } from '../../utils/types'
+import { FieldItem } from '../../utils/types';
 import Chip from './Chip';
 
 interface ChipsProps {

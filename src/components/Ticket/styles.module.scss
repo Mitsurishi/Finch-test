@@ -2,6 +2,15 @@
     max-width: 300px;
 }
 
+.ticket_main_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket_magic_icon {
+    cursor: pointer;
+}
+
 .ticket_subheader_wrapper {
     display: flex;
     align-items: center;

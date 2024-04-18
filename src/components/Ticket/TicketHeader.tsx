@@ -68,5 +68,4 @@ function TicketHeader(props: TicketHeaderProps) {
     )
 }
 
-
 export default observer(TicketHeader);
