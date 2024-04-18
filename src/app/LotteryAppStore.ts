@@ -155,6 +155,7 @@ class LotteryAppStore {
     /**
      * Начать игру заново
      */
+    @action
     public restartGame = () => {
         this.firstFieldWin = LotteryAppStore.generateRandomArrNum(this.firstFieldRequire, this.firstFieldCount);
         this.secondFieldWin = LotteryAppStore.generateRandomArrNum(this.secondFieldRequire, this.secondFieldCount);
